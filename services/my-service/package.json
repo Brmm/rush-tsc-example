@@ -1,0 +1,13 @@
+{
+  "name": "my-service",
+  "version": "1.0.0",
+  "description": "An example application",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "my-lib": "1.0.0"
+  },
+  "author": "Bram Monstrey",
+  "license": "MIT"
+}

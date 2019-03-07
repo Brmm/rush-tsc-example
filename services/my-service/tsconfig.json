@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es2017",
+        "sourceMap": true,
+        "outDir": "./build",
+        "rootDir": "./src",
+
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "declaration": false,
+
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "removeComments": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+
+        "typeRoots": ["node_modules/@types"],
+        "paths": {
+            "*": ["node_modules/*", "types/*"]
+        },
+        "types": ["node", "jest"]
+    },
+    "exclude": [
+        "node_modules",
+        "src/test",
+        "dist"
+    ]
+}
